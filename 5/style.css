@@ -1,0 +1,14 @@
+.square{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.inscription_hello{
+    display: none;
+}
+
+.hidden{
+    display: none;
+}

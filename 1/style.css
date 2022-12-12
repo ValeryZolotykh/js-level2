@@ -1,0 +1,15 @@
+#black_square{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+}
+
+.hidden{
+    display: none;
+}

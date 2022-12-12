@@ -1,0 +1,50 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    height: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+.upload-file__input {
+    opacity: 0;/*скрываем инпут*/
+    /* z-index: -1; */
+}
+
+.icon_upload{
+    margin-right: 10px; 
+}
+
+.upload-file__label {
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #150B22;
+    padding: 9px 49px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.upload-file__label:hover {
+    border: 2px dashed #150B22;
+}
+
+/* drag and drop - "hover" */
+.upload-file__label.hover .upload-file__text {
+    color: #ffb300;
+}
+
+.upload-file__label.hover {
+    border: 2px dashed #ffb300;
+}
+
+/* drag and drop - файл(ы) успешно перетянут(ы) */
+.upload-file__label.successful_upload .upload-file__text {
+    color: #388e3c;
+}
+
+.upload-file__label.successful_upload {
+    border: 2px dashed #388e3c;
+}

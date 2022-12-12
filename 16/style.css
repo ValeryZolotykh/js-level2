@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+}
+
+#gray_square{
+    height: 1200px;
+    background-color: rgba(0, 0, 0, 0.337);
+    visibility: hidden;
+}
